@@ -1,6 +1,6 @@
 Clima Actual y Dato Curioso del Día 🧠
 Objetivo:
-Realiza dos solicitudes a APIs públicas:
+Realiza tres solicitudes a APIs públicas:
 
 ✅ Una para obtener el clima actual en una ciudad ingresada por el usuario.
 ✅ Otra para obtener un dato curioso aleatorio.
@@ -12,8 +12,6 @@ https://api.open-meteo.com/v1/forecast?latitude=LAT&longitude=LON&current_weathe
 
 API de Datos Curiosos: Random Useless Facts
 https://uselessfacts.jsph.pl/
-
-(Esta API devuelve datos curiosos sin necesidad de clave.)
 
 API nombre de ciudad
 https://nominatim.openstreetmap.org/reverse?lat=<value>&lon=<value>&<params>
