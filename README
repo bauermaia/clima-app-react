@@ -1,0 +1,34 @@
+Clima Actual y Dato Curioso del Día 🧠
+Objetivo:
+Realiza dos solicitudes a APIs públicas:
+
+✅ Una para obtener el clima actual en una ciudad ingresada por el usuario.
+✅ Otra para obtener un dato curioso aleatorio.
+
+APIs:
+API de Clima: Open-Meteo
+
+https://api.open-meteo.com/v1/forecast?latitude=LAT&longitude=LON&current_weather=true
+
+API de Datos Curiosos: Random Useless Facts
+https://uselessfacts.jsph.pl/
+
+(Esta API devuelve datos curiosos sin necesidad de clave.)
+
+API nombre de ciudad
+https://nominatim.openstreetmap.org/reverse?lat=<value>&lon=<value>&<params>
+
+Requisitos:
+✅ Mostrar el clima actual:
+
+✅ Mostrar un dato curioso aleatorio:
+
+Al cargar la página, la app muestra un dato curioso en inglés.
+
+------------------------------------------------------------------------------------------------------------------ FALTA
+El usuario ingresa el nombre de una ciudad y la app muestra la temperatura actual, el clima (soleado, lluvioso, etc.) y la humedad.
+
+Agrega ilustraciones o iconos relacionados con el clima y los datos curiosos.
+🔹 Guardado de datos:
+
+Guarda el último dato curioso y el clima en localStorage para que no se pierdan al recargar la página.
