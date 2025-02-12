@@ -26,7 +26,6 @@ Al cargar la página, la app muestra un dato curioso en inglés.
 ------------------------------------------------------------------------------------------------------------------ FALTA
 El usuario ingresa el nombre de una ciudad y la app muestra la temperatura actual, el clima (soleado, lluvioso, etc.) y la humedad.
 
-Agrega ilustraciones o iconos relacionados con el clima y los datos curiosos.
 🔹 Guardado de datos:
 
 Guarda el último dato curioso y el clima en localStorage para que no se pierdan al recargar la página.

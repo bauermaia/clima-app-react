@@ -40,7 +40,7 @@ main {
 }
 
 .card{
-    width: 70%;
+    width: 80%;
     max-width: 600px;
     background: var(--background-card);
     color:var(--white-color);
@@ -78,7 +78,11 @@ main {
 .refresh-button:hover {
     background-color: #ef8317;
 }
-/* 
+
+.form{
+    width: 100%;
+}
+
 .search{
     width: 100%;
     display: flex;
@@ -119,9 +123,8 @@ main {
 }
 
 .opciones{
-    display:none;
+    display:block;
     position: absolute;
-    top: 7.8rem;
     background: var(--white-color);
     color: var(--font-color);
     border-radius: 10px;
@@ -133,13 +136,13 @@ main {
     overflow: hidden;
 }
 
-.opciones ul{
+.opciones-ul{
    list-style: none;
    margin: 0;
    padding: 0; 
 }
 
-.opciones li {
+.opciones-li {
     padding: 15px;
     font-size: var(--small-font);
     border-bottom: var(--bordeer-bottom);
@@ -147,9 +150,9 @@ main {
     transition: background 0.2s ease-in-out;
 }
 
-.opciones li:hover{
-    background: --background--hover;
-} */
+.opciones-li:hover{
+    background: rgb(195, 209, 233);
+} 
 
 .weather__img{
     padding: 2px;
