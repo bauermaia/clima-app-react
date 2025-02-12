@@ -55,7 +55,7 @@ export function WeatherCard ()  {
         <form className="form" onSubmit={handleSubmit}>
         <input type="text" placeholder="Introduce la ciudad" value= {newCity} onChange={handleChange}/>
         <button className="search__button" >
-          <img className="search__img" src="images/search.png"/>
+          <img className="search__img" src="/images/search.png"/>
           </button>
           {
             cities.length>1 && showOptions && (
@@ -78,7 +78,7 @@ export function WeatherCard ()  {
          
         
         </div>
-            <img className='weather__img' src={`images/${weatherData.image}.png`}  alt="Weather icon" />
+            <img className='weather__img' src={`/images/${weatherData.image}.png`}  alt="Weather icon" />
             <h1 className="temp">Temperature: {weatherData.temperature}°c</h1>
             <h2 className="city">Location: {weatherData.city},</h2>
             <h3 className="pais">{weatherData.country}</h3>
