@@ -32,11 +32,13 @@ export function useWeather (lat, lon) {
             .then((res)=> res.json())
             .then((data)=>{
                 if(data.daily) {
-                    const forecastData= data.daily.time.map ((date, index)=> ({
+                    const forecastData= data.daily.time
+                    .slice(1)
+                    .map ((date, index)=> ({
                         day: date,
-                        max: data.daily.temperature_2m_max[index],
-                        min: data.daily.temperature_2m_min[index],
-                        image: getWeatherImage(data.daily.weathercode[index]),
+                        max: data.daily.temperature_2m_max[index+1],
+                        min: data.daily.temperature_2m_min[index+1],
+                        image: getWeatherImage(data.daily.weathercode[index+1]),
                     }) );
 
                     setForecast(forecastData)
