@@ -22,10 +22,8 @@ Requisitos:
 ✅ Mostrar un dato curioso aleatorio:
 
 Al cargar la página, la app muestra un dato curioso en inglés.
-
------------------------------------------------------------------------------------------------------------------- FALTA
 El usuario ingresa el nombre de una ciudad y la app muestra la temperatura actual, el clima (soleado, lluvioso, etc.) y la humedad.
+------------------------------------------------------------------------------------------------------------------ FALTA
 
-🔹 Guardado de datos:
-
-Guarda el último dato curioso y el clima en localStorage para que no se pierdan al recargar la página.
+🔹 MOSTRAR CLIMA A 7 DIAS
+https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&daily={variables_diarias}&timezone={zona_horaria}

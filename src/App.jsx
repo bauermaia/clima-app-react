@@ -15,11 +15,10 @@ export function App() {
     return (
        <>
         <main>
-        <h1 className='card'>Weather ⛅ and random fact 🤔 </h1>
-        <FactCard
-        fact={fact}
-        />
+        <h1 className='card'>Weather Forecast⛅ </h1>
+       
         <WeatherCard />
+       
         <button className='refresh-button' onClick={handleRefresh}>Refresh 🔁 </button>
         </main>
        </>

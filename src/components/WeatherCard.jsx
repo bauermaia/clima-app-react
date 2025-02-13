@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { useWeather } from "../hooks/useWeather";
 import { useGeolocation } from "../hooks/useGeolocation";
 import { useCities } from "../hooks/useCities";
+import { WeatherCarousel } from '../components/WeatherCarousel'
+
 
 export function WeatherCard ()  {
 
@@ -83,6 +85,8 @@ export function WeatherCard ()  {
             <h2 className="city">Location: {weatherData.city},</h2>
             <h3 className="pais">{weatherData.country}</h3>
         </div>
+
+        <WeatherCarousel lat={lat} lon={lon}/>
       </>
     )
 
