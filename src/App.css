@@ -229,6 +229,7 @@ main {
 @media (max-width: 480px) {
     .swiper {
         height: 200px;
+        width: 320px;
     }
 
     .swiper-slide {
@@ -251,6 +252,7 @@ main {
     main{
         gap: 0.5rem;
     }
+    
     .card{
         font-size: 1rem;
         padding: 8px;
@@ -297,9 +299,10 @@ main {
 }
     
 
-.weather__img{
+.weather__img, .weather-icon{
     padding: 2px;
-    width: 30%;
+    width: 80px;
+    height: 80px;
 }
 
 .temp, .city, .pais{
