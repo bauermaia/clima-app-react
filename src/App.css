@@ -285,4 +285,65 @@ i{
     transition: background 0.3s ease, color 0.3s ease;
 } */
 
+@media (max-width: 480px) {
 
+    main{
+        gap: 0.5rem;
+    }
+    .card{
+        font-size: 1rem;
+        padding: 8px;
+    }
+    
+    .fact-card{
+    font-size: .3rem;
+    padding: 5px }
+
+    .refresh-button {
+        border: none;
+        max-width: 100px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .search input{
+       padding: 10px;
+        height: 40px;
+       font-size: 1rem;
+    }
+    
+    .search button{
+       
+        width: 30px;
+        height: 30px;
+        margin:0;
+    }
+    
+    .search__img{
+        width: 10px;
+        opacity: 0.5;
+    }
+
+
+    .opciones{
+        width: 300px;
+        margin: 10px auto 0;
+    }
+    
+.opciones-li {
+    padding: 5px;
+    font-size: 1rem;
+}
+    
+
+.weather__img{
+    padding: 2px;
+    width: 30%;
+}
+
+.temp, .city, .pais{
+    font-size: 20px;
+}
+
+
+}
